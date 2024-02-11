@@ -40,7 +40,6 @@ section::before {
     0% {
         transform: translateY(-100%);
     }
-
     100% {
         transform: translateY(100%);
     }
@@ -146,13 +145,12 @@ input[type="submit"]:active {
     opacity: 0.6;
 }
 
-/* Style the "Already have an account? Login" link */
 section .signup .content .form p {
-    margin-top: 10px; /* Adjust margin as needed */
-    color: #fff; /* Text color */
+    margin-top: 10px; 
+    color: #fff; /* Text color changed to white */
     font-size: 0.8 em; /* Font size */
     display: flex;
-    justify-content: center; /* Align to the center */
+    justify-content: center; /* Align text to the center */
 }
 
 section .signup .content .form p a {
@@ -163,7 +161,7 @@ section .signup .content .form p a {
 
 section .signup .content .form p a.login-link {
     color: #0f0; /* Green color */
-    margin-left: 10px; /* Space between the text and the link */
+    margin-left: 10px; /* Adjust space between text and link */
 }
 
 section .signup .content .form p a:hover {
