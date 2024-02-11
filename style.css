@@ -126,7 +126,7 @@ section .signup .content .form .inputBox i {
 }
 
 section .signup .content .form .inputBox input:focus~i,
-.section .signup .content .form .inputBox input:valid~i {
+section .signup .content .form .inputBox input:valid~i {
     transform: translateY(-7.5px);
     font-size: 0.8em;
     color: #fff;
@@ -147,26 +147,26 @@ input[type="submit"]:active {
 }
 
 /* Style the "Already have an account? Login" link */
-.section .signup .content .form p {
+section .signup .content .form p {
     margin-top: 10px; /* Adjust margin as needed */
     color: #fff; /* Text color */
-    font-size: 0.9em; /* Font size */
+    font-size: 0.8 em; /* Font size */
     display: flex;
     justify-content: center; /* Align to the center */
 }
 
-.section .signup .content .form p a {
+section .signup .content .form p a {
     color: #fff; /* Link color */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.section .signup .content .form p a.login-link {
+section .signup .content .form p a.login-link {
     color: #0f0; /* Green color */
     margin-left: 10px; /* Space between the text and the link */
 }
 
-.section .signup .content .form p a:hover {
+section .signup .content .form p a:hover {
     color: #0c0; /* Hover color */
 }
 
